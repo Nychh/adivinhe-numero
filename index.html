@@ -3,31 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Advinhe o número!</title>
+    <title>Adivinhe o número!</title>
   </head>
   <body>
     <div class="container">
       <header>
         <h1>Adivinhe o número!</h1>
-        <p class="between">O número vai estar entre 1 e 20, boa sorte :)</p>
-        <button class="btn again">De novo!</button>
+        <p class="between">
+          Adivinhe o número entre 1 e <span class="max-number">20</span>
+        </p>
       </header>
       <main>
         <section class="game">
           <div class="number">?</div>
           <section class="left">
-            <input type="number" class="guess" min="1" max="20" />
+            <input
+              type="number"
+              class="guess"
+              min="1"
+              max="20"
+              placeholder="Digite um número"
+            />
             <button class="btn check">Checar!</button>
+            <p class="multiplier">
+              Multiplicador de pontuação: <span>1x</span>
+            </p>
           </section>
         </section>
         <section class="right">
           <p class="message">Comece a adivinhar~</p>
-          <p class="label-score">Pontuação: <span class="score">20</span></p>
-          <p class="label-highscore">
-            Pontuação Maxima: <span class="highscore">0</span>
+          <p class="label-attempts">
+            Tentativas restantes: <span class="attempts">20</span>
           </p>
+          <p class="label-highscore">
+            Pontuação máxima: <span class="highscore">0</span>
+          </p>
+
+          <div class="separator"></div>
+          <div class="game-controls">
+            <button class="btn again">De novo!</button>
+            <div class="difficulty-selector">
+              <button class="btn easy">Fácil</button>
+              <button class="btn medium">Médio</button>
+              <button class="btn hard">Difícil</button>
+            </div>
+          </div>
         </section>
       </main>
     </div>

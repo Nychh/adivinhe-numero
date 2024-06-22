@@ -2,22 +2,24 @@
 
 Um simples jogo de adivinhação de números criado com HTML, CSS e JavaScript usando manipulação DOM.
 
-## Mecanicas
+## Mecânicas
 
-- Pontuação Atual: Começa com 20 pontos e diminui a cada tentativa errada.
-- Pontuação Máxima: Exibe a pontuação máxima alcançada pelo jogador em todas as rodadas.
-- Sistema de Dicas: Após cada tentativa, uma mensagem é exibida indicando se o número secreto é maior ou menor que o palpite do usuario.
-- Design responsivo: Para uma ótima experiencia em diversos dispositivos!
+- **Sistema de dificuldade**: Fácil, médio ou difícil para qual estilo de jogo quiser!
+- **Pontuação Máxima**: Exibe a pontuação máxima alcançada pelo jogador em todas as rodadas.
+- **Multiplicador de pontuação**: Dificuldade alta, ganhos altos.
+- **Sistema de Dicas**: Após cada tentativa, uma mensagem é exibida indicando se o número secreto é maior ou menor que o palpite do usuário.
+- **Design responsivo**: Para uma ótima experiência em diversos dispositivos!
+
 
 ## Captura de Tela
 
-![print](https://i.imgur.com/8R1ArEM.png)
+![print](https://i.imgur.com/qApLlDt.jpeg)
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
-- JavaScript
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Licença
 
